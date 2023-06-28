@@ -356,6 +356,9 @@ iframe {
   height: 195px;
   overflow-y: auto;
 }
+.blogs-page .blog-content{
+  height: auto !important;
+}
 .blog-btn{
   margin-left: 16px;
 }
