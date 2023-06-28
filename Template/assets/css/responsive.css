@@ -1,0 +1,100 @@
+@media screen and (max-width:768px) and (min-width:300px){  
+    div.top-strip-bar .container {
+        background-color: #e8e8f5 !important;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+    .xs-mt-24{
+        margin-top: 24px !important;
+    }
+    .aboutus-card-width{
+        height:  auto !important;
+    }
+    .logo{
+        width: 100%;
+        max-width: 100% !important;
+        min-width: 100%;
+    }
+    .container{
+        max-width: 100% !important;
+    }
+    .container {
+        background-color: white;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+        padding-top: 16px;
+    }
+    .about-company-card h6{
+        margin-top: 16px !important;
+    }
+    .home-page-top-menu .container-fluid {
+        display: flex;
+        justify-content: end;
+        /* margin-top: -70px;
+        margin-right: -21px; */
+    }
+    .navbar-toggler{
+        margin-top: -70px;
+        margin-right: -20px;
+    }
+
+    #main{
+        margin-top: -30px !important;
+    }
+    .home-page-top-menu{
+        /* position: fixed;
+        background: white;
+        top: 98px;
+        text-align: left;
+        padding: 16px !important; */
+    }
+    .home-page-top-menu .navbar{
+        width: 100%;
+    }
+    .enquire-form {
+        padding-right: 0px !important;
+        margin-right: 0px !important;
+        border-right: 1px solid #fff;
+    }
+    .product-detailspage-table .companyInfoAttribute{
+        width: auto !important;
+        min-width: auto !important;    
+    }
+}
+@media screen and (max-width:599px) and (min-width:300px){  
+    .blog-content{
+        height: auto !important;
+    }
+    
+    .companyInfoAttribute {
+        width: auto;
+        margin-right: 5px;
+        min-width: 200px;
+    }
+}
+@media screen and (max-width:959px) and (min-width:769px){
+    .blog-content{
+        height: 200px !important;
+    }  
+    .logo{
+        width: 100%;
+        max-width: 100% !important;
+        min-width: 100%;
+    }
+    .home-page-top-menu .container-fluid {
+        display: flex;
+        justify-content: end;
+        /* margin-top: -70px;
+        margin-right: -21px; */
+    }
+    .navbar-toggler{
+        margin-top: -70px;
+        margin-right: -20px;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:960px){  
+}
+@media screen and (max-width:1224px) and (min-width:1024px){  
+}
+@media screen and (max-width:1224px) and (min-width:960px){  
+}

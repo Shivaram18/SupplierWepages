@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;500&display=swap');
+html,
+body {
+    font-family: Overpass, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #25333c;
+    background-color: #e8e8f5;
+}
+.container{
+  background-color: white;
+  padding-left: 24px  !important;
+  padding-right: 24px !important;
+  padding-top: 24px;
+}
+.header-wrapper.container, .main-header{
+  background-color: #fff !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.top-strip-bar .container{
+  background-color: #e8e8f5 !important;
+  padding: 0 !important;
+}
+.container.products-menu{
+  padding-left: 0 !important;
+  padding-right:0 !important;
+ }
+.top-strip-bar{
+  background-color: #e8e8f5 !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ p, ul{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.text-right{
+  text-align: right;
+}
+.fullWidth{
+  width: 100%;
+}
+ul li{
+  display: inline;
+  text-decoration: none;
+  text-decoration: none;
+}
+/* .home-page-top-menu ul li{
+  margin-right: 16px;
+} */
+.home-page-top-menu ul li:last-child{
+  margin-right: 0px;
+}
+ul{
+  margin: 0;
+}
+ul li a{
+  color: #25333c;
+  text-decoration: none;
+  /* font-size: 14px; */
+}
+.dropdown-item{
+  font-size: 14px;
+}
+ul li a:hover{
+  color: #4D4E8E;
+  text-decoration: underline;
+  /* font-weight: 600; */
+}
+ul.dropdown-menu li a:hover{
+  text-decoration: none !important;
+}
+a{
+  color: #4D4E8E;
+}
+p{
+  font-size: 14px;
+}
+.grey-fg{
+  color: #999999;
+}
+.font-weight-bold{
+  font-weight: 600;
+}
+.line-height-44{
+  line-height: 44px !important;
+}
+.line-height-46{
+  line-height: 46px !important;
+}
+.primary-bg{
+  background-color: #4D4E8E;
+}
+.btn-primary{
+  background-color: #4D4E8E;
+  color: white;
+  font-size: 13px;
+  padding: 8px 16px;
+  border: 1px solid #4D4E8E;
+  height: 30px;
+  line-height: 15px;
+}
+.btn-secondary{
+  background-color: #fff;
+  color: #4D4E8E;
+  font-size: 13px;
+  padding: 8px 16px;
+  border: 1px solid #4D4E8E;
+  transition: 0.3s;
+  height: 30px;
+  line-height: 15px;
+}
+.btn-primary:hover{
+  background-color: #363770;
+  color: white;
+  transition: 0.3s;
+}
+.active{
+  background-color: #363770;
+  color: white;
+}
+.btn-secondary:hover{
+  background-color: #4D4E8E;
+  color: #fff;
+  transition: 0.3s;
+}
+.products-menu ul li:hover{
+  background-color: #363770;
+  color: #fff;
+  cursor: pointer;
+ /* transition: 0.6s; */
+}
+.products-menu ul li:hover a{
+  /* color: #fff; */
+  /* text-decoration: underline; */
+  cursor: pointer;
+ /* transition: 0.2s; */
+}
+.products-menu ul li a:hover{
+  text-decoration: none;
+}
+.products-menu ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 40px;
+  padding: 0;
+}
+ ul{
+  height: auto !important;
+}
+.products-menu ul li{
+    /* border-right: 1px solid #fff; */
+    text-align: center;
+    width: 15%;
+    height: 40px;
+    line-height: 40px;
+   /* transition: 0.2s; */
+}
+.products-menu ul li:last-child{
+  border-right: none;
+}
+.products-menu ul li a, .products-menu ul li{
+  color: #fff;
+  font-weight: 500;
+}
+ul.other-products li a{
+  color: #25333c !important;
+  font-weight: 500;
+}
+ul.other-products li{
+  text-align: left;
+  line-height: 26px;
+  height: 28px;
+  display:grid;
+  width: 100%;
+}
+ul.other-products li:hover a:hover{
+  background-color: #363770 !important;
+  color: white;
+}
+ul.other-products li:hover a{
+  background-color: #363770 !important;
+  color: white !important;
+}
+.tab {
+    display: inline-block;
+    padding: 10px;
+    background-color: lightgray;
+    cursor: pointer;
+  }
+  
+  .tab-content {
+    display: none;
+  }
+ 
+.hamburger {
+  width: 30px;
+  height: 40px;
+  background-color: lightgray;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.menu-content {
+  display: none; /* Hide the menu items by default */
+}
+ 
+.mobile-menu {
+    display: none; /* Hide the menu by default */
+  }
+  
+@media screen and (max-width:768px) and (min-width:300px){  
+  .mobile-menu {
+    display: block; 
+  }
+
+  .menu-content {
+    display: none;
+  }
+  .xs-m-0{
+    margin: 0 !important;
+  } 
+  .xs-p-0{
+    padding: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+    .gt-xs-menu{
+        display: none;
+    }
+}
+.right-top-strip.social-media-icons{
+  color: #6c6565;
+  transition: 0.8s;
+  cursor: pointer;
+}
+.right-top-strip.social-media-icons span i:hover{
+  color: #4D4E8E;
+  transition: 0.8s;
+}
+.aboutus-card-width{
+ height: 160px;
+}
+.product-image, .product-content{
+  cursor: pointer;
+}
+.product-content{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-bottom: 16px;
+}
+.product-image img{
+  height: 260px;
+  object-fit: cover;
+  width: 100%;
+}
+.product-card.col-3{
+  margin: 0;
+  padding: 0;
+}
+.product-card .card-margin{
+  margin-bottom: 16px !important;
+  margin-right: 16px;
+}
+.product-card:last-child .card-margin{
+  margin-right: 0 !important;
+}
+.home-product-cards{
+  margin-top: 16px !important;
+}
+.a-link{
+  color: #4D4E8E;
+  text-decoration: underline;
+  font-size: 14px;
+  text-align: right;
+}
+iframe {
+  width: 100%;
+}
+.bg-body-tertiary-tg{
+  /* background-color: #e8e8f5 !important; */
+}
+.enquire-form{
+  padding-right: 30px !important;
+  margin-right: 30px;
+  border-right: 1px solid #d5d5d3;
+}
+.form-input-field{
+  padding: 3px 8px;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    line-height: 30px;
+    height: 40px;
+    margin-bottom: 8px;
+    background-color: white;
+}
+.form-field-label{
+  font-size: 14px;
+  color: #25333c;
+  margin-bottom: 5px !important;
+}
+.form-textarea{
+  padding: 3px 8px;
+  border: 1px solid #ddd;
+  height: 150px;
+}
+.tg-b{
+  box-shadow: 1px 1px 7px #ddd;
+}
+.a-clear{
+  color: #999;
+  font-size: 14px;
+  text-decoration: none;
+}
+.a-clear:hover{
+  color: #4D4E8E;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.blog-content{
+  padding: 16px;
+  height: 145px;
+  overflow-y: auto;
+}
+.blog-btn{
+  margin-left: 16px;
+}
+.breadcrumb a{
+  text-decoration: none;
+}
+.breadcrumb a:hover{
+  text-decoration: underline;
+}
+.product-card:hover{
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.logo{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+.companyInfoAttribute{
+  width: 250px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.product-detailspage-table .companyInfoAttribute{
+    width: 250px;
+    margin-left: 17px;
+    border-right: 1px solid #efefef;
+    margin-right: 24px;
+    margin-bottom: 0 !important;
+}
+.product-detailspage-table .profile-tg div {
+  border: 1px solid #efefef;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+}
+.seperator{
+  font-size: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+section#main{
+  min-height: 80vh;
+}
+.homepage-products-links ul li a, .detailpage-products-links ul li a{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/* Custom CSS for large dropdown */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  max-height: 450px;
+  overflow: auto;
+  overflow-x: hidden;
+  /* min-width: 300px; Adjust the width as per your requirement */
+}
+.togglemenu-xs{
+  position: fixed;
+    background: white;
+    width: 100%;
+    left: 0;
+    top: 210px;
+    padding: 16px;
+}
+.nav-link{
+  font-weight: 600;
+}
+.nav-link:hover{
+  color:#4D4E8E ;
+}
+.nav-link.active-link{
+  color:#4D4E8E ;
+  text-decoration: underline;
+}
+.page-banner-bg{
+  background: linear-gradient(to bottom, rgba(135, 137, 196, 0.92), rgba(135, 137, 196, 0.93)), url('https://www.tradeleaves.com/tl/bulk/image/get/afbb9eb5-660e-4a55-a29b-8395c59c858f/2.jpeg') ;
+  color: white;
+}
+.certification{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.certification img{
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  margin: 16px;
+  box-shadow: 1px 1px 5px #999;
+}
