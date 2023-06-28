@@ -441,9 +441,12 @@ section#main{
   color:#4D4E8E ;
   text-decoration: underline;
 }
-.page-banner-bg{
-  background: linear-gradient(to bottom, rgba(135, 137, 196, 0.92), rgba(135, 137, 196, 0.93)), url('https://www.tradeleaves.com/tl/bulk/image/get/afbb9eb5-660e-4a55-a29b-8395c59c858f/2.jpeg') ;
+div.page-banner-bg{
+  /* background: linear-gradient(to bottom, rgba(135, 137, 196, 0.92), rgba(135, 137, 196, 0.93)), url('https://www.tradeleaves.com/tl/bulk/image/get/afbb9eb5-660e-4a55-a29b-8395c59c858f/2.jpeg') ; */
   color: white;
+  background-color: #7e80b6;
+  height: auto !important;
+  min-height: auto !important;
 }
 .certification{
   display: flex;
