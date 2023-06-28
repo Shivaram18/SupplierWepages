@@ -72,6 +72,11 @@
         min-width: 200px;
     }
 }
+@media screen and (max-width:1224px){
+    .container{
+        max-width: 98% !important;
+    }
+}
 @media screen and (max-width:959px) and (min-width:769px){
     .blog-content{
         height: 200px !important;
@@ -90,6 +95,14 @@
     .navbar-toggler{
         margin-top: -70px;
         margin-right: -20px;
+    }
+    .navbar-toggler {
+        margin-right: -140px !important;
+    }
+}
+@media screen and (max-width:1400px) and (min-width:1200px){  
+    .container{
+        min-width: 1320px !important;
     }
 }
 @media screen and (max-width:1024px) and (min-width:960px){  

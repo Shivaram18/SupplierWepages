@@ -6,7 +6,36 @@ body {
     font-weight: 400;
     color: #25333c;
     background-color: #e8e8f5;
+    transition: 0.3s;
 }
+/*====================================== reset.css is here ========================================*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {  transition: 0.3;}
+table {	 transition: 0.2;}
+fieldset,img {  transition: 0.2;}
+address,caption,cite,code,dfn,em,strong,th,var { transition: 0.2;}
+ol,ul {  transition: 0.2;}
+caption,th { transition: 0.2;}
+h1,h2,h3,h6 {	 transition: 0.2;}
+q:before,q:after { transition: 0.2;}
+abbr,acronym {  transition: 0.2;}
+.clear{ transition: 0.2;}
+header,nav,section,article,aside,footer,hgroup { transition: 0.2;}
+::selection{ transition: 0.2; }
+figure{  transition: 0.2;}
+*{box-sizing:border-box;}
+.border_radius5{
+	border-radius: 5px;
+}
+/**************************************************************************************/
+a											  { text-decoration:none; outline:0 none; cursor:pointer; color:#25333c; transition: 0.2;} 
+a:hover									{ text-decoration:none;  transition: 0.2;}
+h1											{  transition: 0.2; }
+h2											{  transition: 0.2;}
+h3											{  transition: 0.2;}
+h4											{ transition: 0.2;}
+h5											{  transition: 0.2; }
+h6											{  transition: 0.2; }
+input,textarea					{ outline:none;  transition: 0.2;}
 .container{
   background-color: white;
   padding-left: 24px  !important;
@@ -324,7 +353,7 @@ iframe {
 }
 .blog-content{
   padding: 16px;
-  height: 145px;
+  height: 195px;
   overflow-y: auto;
 }
 .blog-btn{
@@ -399,7 +428,8 @@ section#main{
     padding: 16px;
 }
 .nav-link{
-  font-weight: 600;
+  /* font-weight: 600; */
+  font-size: 14px;
 }
 .nav-link:hover{
   color:#4D4E8E ;
@@ -425,4 +455,11 @@ section#main{
   object-fit: cover;
   margin: 16px;
   box-shadow: 1px 1px 5px #999;
+}
+.search-product{
+  width: 250px;
+  padding: 0 8px;
+  height: 32px;
+  border: 1px solid #999;
+  color: #25333c;
 }
