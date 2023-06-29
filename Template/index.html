@@ -7,6 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Supplier Webpage 1</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-utilities.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/style.css"  />
     <link rel="stylesheet" href="assets/css/responsive.css"  />
     <link rel="stylesheet" href="assets/css/helper.css"  />
@@ -51,7 +53,10 @@
                                 <span class="navbar-toggler-icon"></span>
                               </button>
                               <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                                <input type="text" placeholder="Search products" class="search-product mr-16"/>
+                                <div class="position-relative search-header">
+                                    <input type="text" placeholder="Search Products" class="search-product mr-16"/>
+                                    <a href=""> <i class="search-icon bi bi-search font-size-12 position-absolute"></i></a>
+                                </div>                               
                                 <ul class="navbar-nav">
                                   <li class="nav-item">
                                     <a class="nav-link active-link" aria-current="page" href="index.html">Home</a>
@@ -88,16 +93,16 @@
                                     </ul>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About us</a>
+                                    <a class="nav-link" href="about.html">About Us</a>
                                   </li>
                                   <!-- <li class="nav-item">
                                     <a class="nav-link" href="certification.html">Certifications</a>
                                   </li> -->
                                   <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact us</a>
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link" href="blog.html">Blog</a>
+                                    <a class="nav-link" href="blog.html">Blogs</a>
                                   </li>
                                 
                                 </ul>
@@ -152,7 +157,7 @@
         <div class="first-fold container p-0">
             <div class="banner pt-16">
                 <img src="assets/img/banner-home.png" alt=""
-                    class="fullWidth height-350 object-fit-cover">
+                    class="fullWidth height-270 object-fit-cover">
             </div>
             <div class="about-company row font-size-14 pt-32">
                 <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
@@ -165,7 +170,16 @@
                         foods that meet the above criteria at an affordable cost. We combined this vision with stellar customer
                         service, so
                         people get access to healthy foods in the most convenient way possible.
-                         We began researching on what it takes to provide foods that are fresh and pure. We created quality
+                        We began researching on what it takes to provide foods that are fresh and pure. We created quality
+                        parameters after
+                        researching and contacted like-minded farmers, suppliers and manufacturers. Our focus was pure
+                        unadulterated
+                        ingredients that were stored in the right temperatures and packaged in a standardized way.
+                    </p>
+                    <p style="margin-bottom: 8px !important;"> We combined this vision with stellar customer
+                        service, so
+                        people get access to healthy foods in the most convenient way possible.
+                        We began researching on what it takes to provide foods that are fresh and pure. We created quality
                         parameters after
                         researching and contacted like-minded farmers, suppliers and manufacturers. Our focus was pure
                         unadulterated
@@ -205,7 +219,7 @@
                         </div>
                         <div class="col-sm-12 col-md-12 col-xl-8 col-xxl-8 col-lg-8 tg-b">
                             <div class="pv-8">
-                                <h6 class="p-0">Consumer's convenience</h6>
+                                <h6 class="p-0">Consumer's Convenience</h6>
                                 <p class="p-0">You may be a consumer who likes to shop online or someone who enjoys shopping
                                     from
                                     a brick and mortar store. Our products are available at both these platforms.
@@ -221,7 +235,7 @@
                         </div>
                         <div class="col-sm-12 col-md-12 col-xl-8 col-xxl-8 col-lg-8 tg-b">
                             <div class="pv-8">
-                                <h6 class="p-0">Business's convenience</h6>
+                                <h6 class="p-0">Business's Convenience</h6>
                                 <p class="p-0">You may be an importer, a manufacturer, an owner of a shop in any country
                                     and of any size - a small traditional mom and pop store or a huge
                                     departmental store, our products.</p>
@@ -269,7 +283,7 @@
         <div class="product-best-seller container">            
             <div class="best-selling-products pb-24">
                 <div class="row m-0 p-0">
-                    <h5 class="col  pl-5"> Best selling products</h5>
+                    <h5 class="col  pl-5"> Best Selling Products</h5>
                     <a href="productlist.html" class="a-link col p-0 mr-25 d-none d-lg-block">Explore more products</a>
                 </div>               
                     <div class="home-product-cards row justify-content-center m-0  ph-8">
@@ -337,37 +351,37 @@
                     <a href="productlist.html" class="a-link col p-0 mr-25 d-lg-none mt-16 d-flex justify-content-center">Explore more products</a>
             </div>
         </div>
-        <div class="Comapny-profile container mt-16">            
+        <div class="Comapny-profile container mt-16 company-info-table">            
             <div class="best-selling-products pb-24">
                 <h5 class="col"> Company Profile</h5>
                 <div class="row">
                     <div class="col-xl-6 col-xxl-6 col-lg-12 col-md-12 col-sm-12">
                         <div class="profile-tg mt-20">
-                            <div class="d-flex flex-wrap">
+                            <div class="d-flex">
                                 <span class="grey-fg  companyInfoAttribute">Company Type </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">Private</span>
                             </div>
-                            <div class="d-flex flex-wrap">
+                            <div class="d-flex">
                                 <span class="grey-fg  companyInfoAttribute">Industry </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">Agricultural products</span>
                             </div>
-                            <div class="d-flex flex-wrap">
+                            <div class="d-flex">
                                 <span class="grey-fg  companyInfoAttribute">No. of years in business </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">15</span>
                             </div>
-                            <div class="d-flex flex-wrap">
+                            <div class="d-flex">
                                 <span class="grey-fg  companyInfoAttribute">Number of employees </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">50-75</span>
                             </div>
-                            <div class="d-flex flex-wrap">
+                            <div class="d-flex">
                                 <span class="grey-fg  companyInfoAttribute">Annual Revenue </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">₹5 - 10 crores</span>
                             </div>
-                            <div class="d-flex flex-wrap">
+                            <div class="d-flex">
                                 <span class="grey-fg  companyInfoAttribute">GSTIN </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">12ACBGHNND225</span>
                             </div>
-                            <div class="d-flex flex-wrap">
+                            <div class="d-flex">
                                 <span class="grey-fg  companyInfoAttribute">PAN </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">CZYPM8914M</span>
                             </div>
@@ -376,43 +390,43 @@
                                 <span class="SellerTemplate-ProfileText " flex="50">
                                     http://www.woriointernational.com/</span>
                             </div> -->
-                            <div class="d-flex flex-wrap" >
+                            <!-- <div class="d-flex" >
                                 <span class="grey-fg  companyInfoAttribute">Preferred payment methods </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">Cash, UPI</span>
-                            </div>
-                            <div class="d-flex flex-wrap" >
+                            </div> -->
+                            <!-- <div class="d-flex" >
                                 <span class="grey-fg  companyInfoAttribute">Supported delivery terms</span>
                                 <span class="SellerTemplate-ProfileText  " flex="50">FOB, CIF</span>
-                            </div>
+                            </div> -->
                          </div>
                     </div>
-                    <div class="col-xl-6 col-xxl-6 col-lg-12 col-md-12 col-sm-12" >
+                    <div class="col-xl-6 col-xxl-6 col-lg-12 col-md-12 col-sm-12 hide-xs" >
                         <div class="profile-tg mt-20">
-                            <div  class="d-flex flex-wrap">
+                            <div  class="d-flex">
                                 <span class="grey-fg  companyInfoAttribute">Company Type </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">Private</span>
                             </div>
-                            <div  class="d-flex flex-wrap">
+                            <div  class="d-flex">
                                 <span class="grey-fg  companyInfoAttribute">Industry </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">Agricultural products</span>
                             </div>
-                            <div  class="d-flex flex-wrap">
+                            <div  class="d-flex">
                                 <span class="grey-fg  companyInfoAttribute">No. of years in business </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">15</span>
                             </div>
-                            <div class="d-flex flex-wrap" >
+                            <div class="d-flex" >
                                 <span class="grey-fg  companyInfoAttribute">Number of employees </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">50-75</span>
                             </div>
-                            <div  class="d-flex flex-wrap">
+                            <div  class="d-flex">
                                 <span class="grey-fg  companyInfoAttribute">Annual Revenue </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">₹5 - 10 crores</span>
                             </div>
-                            <div class="d-flex flex-wrap" >
+                            <div class="d-flex" >
                                 <span class="grey-fg  companyInfoAttribute">GSTIN </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">12ACBGHNND225</span>
                             </div>
-                            <div  class="d-flex flex-wrap">
+                            <div  class="d-flex">
                                 <span class="grey-fg  companyInfoAttribute">PAN </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">CZYPM8914M</span>
                             </div>
@@ -421,14 +435,14 @@
                                 <span class="SellerTemplate-ProfileText " flex="50">
                                     http://www.woriointernational.com/</span>
                             </div> -->
-                            <div class="d-flex flex-wrap" >
+                            <!-- <div class="d-flex" >
                                 <span class="grey-fg  companyInfoAttribute">Preferred payment methods </span>
                                 <span class="SellerTemplate-ProfileText " flex="50">Cash, UPI</span>
                             </div>
-                            <div class="d-flex flex-wrap"  >
+                            <div class="d-flex"  >
                                 <span class="grey-fg  companyInfoAttribute">Supported delivery terms</span>
                                 <span class="SellerTemplate-ProfileText  " flex="50">FOB, CIF</span>
-                            </div>
+                            </div> -->
                          </div>
                     </div>
                 </div>               
@@ -492,7 +506,7 @@
         </div>
         <div class="home-blogs pb-16">        
             <div class="blogs row mt-16 container pb-24 m-auto">
-                <h5 class="col  pl-5 mb-16">Blog</h5>
+                <h5 class="col  pl-5 mb-16">Blogs</h5>
                 <div class="d-flex justify-content-center row">
                     <div class="blog-card col-sm-12 col-md-6 col-lg-4 mb-16">
                         <div class="blog-card-inner tg-b pb-8  mr-8">
@@ -521,7 +535,7 @@
                     <div class="blog-card col-sm-12 col-md-6 col-lg-4 mb-16">
                         <div class="blog-card-inner tg-b pb-8 mr-8">
                             <div class="blog-image bb h-210 d-flex h-150 justify-content-center">
-                                <img src="assets/img/3Cropped.jpeg" alt="" class="object-fit-cover fullWidth full-height">
+                                <img src="assets/img/banner-home.png" alt="" class="object-fit-cover fullWidth full-height">
                             </div>
                             <div class="blog-content">
                                 <div class="row-cols-3 font-size-11 justify-content-between d-flex mb-8 grey-fg">
@@ -545,7 +559,7 @@
                     <div class="blog-card col-sm-12 col-md-6 col-lg-4 mb-16">
                         <div class="blog-card-inner tg-b pb-8 mr-8">
                             <div class="blog-image bb h-210 d-flex h-150 justify-content-center">
-                                <img src="assets/img/1000_F_339183003_LV1tG8YLat3iWtLV2APLP726uq290CTB 1.png" alt="" class="object-fit-cover fullWidth full-height">
+                                <img src="assets/img/3Cropped.jpeg" alt="" class="object-fit-cover fullWidth full-height">
                             </div>
                             <div class="blog-content">
                                 <div class="row-cols-3 font-size-11 justify-content-between d-flex mb-8 grey-fg">
@@ -629,8 +643,8 @@
                 <p class="text-center font-size-12">© All rights reserved TGLIA Services LLP 2023</p>
         </div>
     </footer>
+    <script src="assets/js/jQuery.js"></script>
     <script src="assets/js/script.js"></script>
-    <script></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
