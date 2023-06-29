@@ -1,4 +1,13 @@
 @media screen and (max-width:768px) and (min-width:300px){  
+   div.blog-card-inner{
+        margin-right: 0 !important;
+    }
+    .search-product{
+       width: 250px;
+       margin-right: 0 !important;
+       display: flex;
+       margin: 12px auto;
+    }
     div.top-strip-bar .container {
         background-color: #e8e8f5 !important;
         padding-left: 16px !important;

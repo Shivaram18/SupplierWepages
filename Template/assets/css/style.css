@@ -415,7 +415,9 @@ section#main{
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-
+.products-menu .dropdown:hover .dropdown-menu {
+  left: -70px;
+}
 .dropdown-menu {
   max-height: 450px;
   overflow: auto;
