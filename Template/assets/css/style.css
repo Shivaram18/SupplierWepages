@@ -304,9 +304,11 @@ ul.other-products li:hover a{
 }
 .a-link{
   color: #4D4E8E;
-  text-decoration: underline;
   font-size: 14px;
   text-align: right;
+}
+.a-link:hover{
+  text-decoration: underline;
 }
 iframe {
   width: 100%;
@@ -468,6 +470,15 @@ div.page-banner-bg{
   width: 250px;
   padding: 0 8px;
   height: 32px;
-  border: 1px solid #999;
-  color: #25333c;
+  border: 1px solid #ddd;
+  color: #999;
+  font-size: 14px;
+}
+.dropdown-toggle::after{
+  margin-left: 0 !important;
+}
+.search-icon{
+  right: 25px;
+  top:9px;
+  cursor: pointer;
 }

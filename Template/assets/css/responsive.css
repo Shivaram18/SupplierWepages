@@ -1,12 +1,20 @@
 @media screen and (max-width:768px) and (min-width:300px){  
+    .product-details{
+        padding-bottom: 24px;
+    }
+    div.product-content-details-page{
+        height: auto !important;
+        min-height: auto !important;
+        max-height: initial !important;
+    }
    div.blog-card-inner{
         margin-right: 0 !important;
     }
     .search-product{
        width: 250px;
-       margin-right: 0 !important;
+       margin-right: auto !important;
        display: flex;
-       margin: 12px auto;
+       margin: 12px auto !important;
     }
     div.top-strip-bar .container {
         background-color: #e8e8f5 !important;
@@ -67,19 +75,30 @@
     }
     .product-detailspage-table .companyInfoAttribute{
         width: auto !important;
-        min-width: auto !important;    
+    }
+    .hide-xs{
+        display: none !important;
     }
 }
-@media screen and (max-width:599px) and (min-width:300px){  
+@media screen and (max-width:600px) and (min-width:300px){  
     .blog-content{
         height: auto !important;
     }
-    
+    .hide-xs{
+        display: none !important;
+    }    
     .companyInfoAttribute {
         width: auto;
         margin-right: 5px;
         min-width: 200px;
     }
+    .company-info-table, .profile-tg{
+        width: 550px;
+        position: relative;
+      }
+      .company-info-table{
+        overflow-y: auto;
+      }
 }
 @media screen and (max-width:1224px){
     .container{
@@ -87,6 +106,9 @@
     }
 }
 @media screen and (max-width:959px) and (min-width:769px){
+    .product-content-details-page{
+        margin-top: 24px !important;
+    }
     .blog-content{
         height: 200px !important;
     }  
@@ -108,6 +130,11 @@
     .navbar-toggler {
         margin-right: -140px !important;
     }
+    div.product-content-details-page{
+        height: auto !important;
+        min-height: auto !important;
+        max-height: initial !important;
+    }
 }
 @media screen and (max-width:1400px) and (min-width:1200px){  
     .container{
@@ -115,8 +142,27 @@
     }
 }
 @media screen and (max-width:1024px) and (min-width:960px){  
+    div.product-content-details-page{
+        height: auto !important;
+        min-height: auto !important;
+        max-height: initial !important;
+    }
+    .product-content-details-page{
+        margin-top: 24px !important;
+    }
 }
 @media screen and (max-width:1224px) and (min-width:1024px){  
 }
 @media screen and (max-width:1224px) and (min-width:960px){  
+}
+@media screen and (min-width:1440px){
+    .nav-link {
+        font-weight: 500;
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:1360px){
+/* .search-product{
+    margin-right: 180px !important;
+} */
 }
